@@ -1,0 +1,27 @@
+freeze:
+  menu:
+    name: '&c&l(!) &cYou are Frozen! &c&l(!)'
+    size: 9
+    admit-commands:
+      - 'ban {player} 30d Admitting to cheating.'
+    refusal-commands:
+      - 'ban {player} Logging out whilst frozen.'
+    items:
+      information:
+        slot: 5
+        name: '&cYou are frozen!'
+        material: 'BOOK'
+        lore:
+          - ''
+          - '&fYou have been frozen, join the discord at discord.gg/qdsggyM'
+          - ''
+          - '&cIf you disconnect you are admitting to cheating!'
+          - ''
+      admit:
+        slot: 8
+        name: '&c&lCLICK TO ADMIT'
+        material: 'BARRIER'
+        lore:
+          - ''
+          - '&cBy clicking this you are admitting to cheating and will be banned and humiliated in chat.'
+          - ''
